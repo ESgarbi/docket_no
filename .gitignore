@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (datasets)
+data/
+*.csv
+*.tsv
+*.json
+*.h5
+*.npy
+*.npz
+
+# Model files and checkpoints
+models/*
+*.pth
+*.pt
+*.pkl
+*.h5
+*.onnx
+*.pb
+
+# Output directories and prototype/experiment folders
+outputs/
+outputs_v1/
+logs/
+runs/
+evaluation_reports/
+comparison_results/
+2005/
+sequence/
+*.zip
+
+# Generated synthetic data
+synthetic/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Debug files
+debug_*.py
+workpad.ipynb
+
+# Generated content
+comparison_results.json 
